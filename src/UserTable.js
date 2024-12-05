@@ -6,7 +6,6 @@ const UserTable = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch data from the API
     const fetchUsers = async () => {
       try {
         const response = await fetch("https://jsonplaceholder.typicode.com/users");
